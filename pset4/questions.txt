@@ -1,0 +1,42 @@
+0.  TODO
+       BMP, JPEG and PNG supports up to 16,777,216 different colors. 
+       GIF supports 256 different colors. 
+1.  TODO
+        GIF File
+2.  TODO
+        Lossless compression allows the reconstruction of the original from the compressed data. 
+        An example for this compression type is ZIP. 
+        Lossy compression achieves its effect due to the reduction of information, hence preventing a reconstruction of the original data. 
+        An example for this compression type is the MP3 file format.
+3.  TODO
+        JPEG
+4.  TODO
+        when a file is deleted on a FAT file system, then the reference to the data are deleted from the file allocation table.
+5.  TODO
+        if the data is permanently delete from disk can't recover, otherwise is could be recover.
+6.  TODO
+        <stdint.h> is a header file, that is declaring the int types.        
+7.  TODO
+        Using these types allows to write implementation- and plattform-independent code.
+8.  TODO
+        BYTE = 8 bit, DWORD = 32 bit, LONG = 32bit and WORD = 16 bit.
+9.  TODO
+        0x42 and 0x4d.
+10. TODO
+        bfSize have the size of the file, while biSize is holds the size of the Bitmapinfoheader.        
+11. TODO
+        A negative value for biHeight suggests that the vertical orientation of the image is upside-down.
+12. TODO
+        This is defined in biBitCount.
+13. TODO
+        This can happen if the user running the copy programm has no write permission for the directory she wants to copy the file to.
+14. TODO
+        We want to copy one individual structure per read, e.g. a complete BITMAPINFOHEADER or an individual RGBTRIPLE.     
+15. TODO
+        padding will have a value of 3.
+16. TODO
+        fseek is used to move a position pointer through a file stream.
+17. TODO
+        It indicates the current position of the position pointer.
+18. TODO
+        Fossie bear is the culprit.

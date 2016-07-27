@@ -1,0 +1,20 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. TODO
+    3x3
+    5x5
+    6x6
+    7x7
+    8x8
+1. TODO
+    linear search
+2. TODO
+    greet
+3. TODO
+    1- init
+    2- drow
+    3- move
+    4- won

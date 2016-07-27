@@ -1,0 +1,35 @@
+0.  TODO
+         its a lognest word in english.
+1.  TODO
+        It returns resource usage measures for a process(es), like CPU time and memory used.
+2.  TODO
+        16
+3.  TODO
+        before and after are passed by reference to calculate to save time and memory resources as the 2 structs would not have to be copied.
+4.  TODO
+        After loading a textfile and a dictionary, main() function starts reading a text symbol-by-symbol, with a goal of constructing separate 
+        words. A word is completed when one or more alphabetic symbols are read, and we encounted a non-alphanumeric character (like spacebar, 
+        or newline). Then we check our word for misspellings, reset the word index to zero, and continue the symbol reading loop. If we encounter 
+        a digit, or a string tends to be too long, we traverse this word in the text, but we won't check it for misspellings.
+5.  TODO
+        fscanf is vulnerable to buffer overflow. Additionally, we are already checking if each character is alphabetical and thus fgetc is likely 
+        to be more efficient too.
+6.  TODO
+        The value of const cannot be modified later
+7.  TODO
+        i used the Hash table, trie and struct. struct called node for every word from the dictionary file. for loading the words form the file i
+        used the hashtable.
+8.  TODO
+        WORDS MISSPELLED:     644
+        WORDS IN DICTIONARY:  143091
+        WORDS IN TEXT:        19190
+        TIME IN load:         0.25
+        TIME IN check:        0.04
+        TIME IN size:         0.00
+        TIME IN unload:       0.01
+        TIME IN TOTAL:        0.29
+9.  TODO
+        
+10. TODO
+        i dont know if there any bottlenecks, for compeleting this set i took help of the google for concepts and syntax. 
+
